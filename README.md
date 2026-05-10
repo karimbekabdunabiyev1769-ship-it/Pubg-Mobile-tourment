@@ -188,3 +188,151 @@ function renderAdmin(){
 render();
 </script></body>
 </html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUBG MOBILE TOURNAMENT</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#050505;
+  color:white;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  background:url("https://images.unsplash.com/photo-1542751371-adc38448a05e") center/cover;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.hero::after{
+  content:"";
+  position:absolute;
+  top:0; left:0;
+  width:100%; height:100%;
+  background:rgba(0,0,0,0.7);
+}
+
+.hero-content{
+  position:relative;
+  z-index:1;
+}
+
+.hero h1{
+  font-size:45px;
+  color:#ffcc00;
+  text-shadow:0 0 20px black;
+}
+
+.hero p{
+  font-size:18px;
+  color:#ddd;
+}
+
+.btn{
+  margin-top:20px;
+  padding:15px 30px;
+  border:none;
+  background:#ffcc00;
+  font-weight:bold;
+  cursor:pointer;
+  border-radius:8px;
+}
+
+.btn:hover{
+  background:#ff9900;
+}
+
+/* SECTIONS */
+.section{
+  padding:50px 20px;
+  text-align:center;
+}
+
+.card{
+  background:#111;
+  margin:20px auto;
+  width:85%;
+  max-width:700px;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 0 20px #ffcc00;
+}
+
+/* GALLERY */
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+}
+
+.gallery img{
+  width:220px;
+  height:140px;
+  object-fit:cover;
+  border-radius:10px;
+  border:2px solid #ffcc00;
+}
+
+/* FOOTER */
+footer{
+  padding:20px;
+  background:black;
+  text-align:center;
+  color:#aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>🔥 PUBG MOBILE TOURNAMENT 🔥</h1>
+    <p>UZBEKISTAN OFFICIAL ONLINE TURNIR</p>
+    <button class="btn">RO‘YXATDAN O‘TISH</button>
+  </div>
+</div>
+
+<div class="section">
+
+  <div class="card">
+    <h2>🎮 O‘yin Rasmlari</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1612287230202-1ff1d8b2f9b7">
+      <img src="https://images.unsplash.com/photo-1606813902916-0a6c3c2b0a7a">
+      <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575">
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>💰 Prize Pool</h2>
+    <p>🥇 1-O‘rin: $200</p>
+    <p>🥈 2-O‘rin: $100</p>
+    <p>🥉 3-O‘rin: $50</p>
+  </div>
+
+  <div class="card">
+    <h2>📅 Turnir vaqti</h2>
+    <p>Har yakshanba 20:00</p>
+  </div>
+
+</div>
+
+<footer>
+© PUBG MOBILE TOURNAMENT UZBEKISTAN
+</footer>
+
+</body>
+</html>
